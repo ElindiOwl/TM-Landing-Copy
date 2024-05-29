@@ -1,0 +1,26 @@
+.advantages {
+  margin-top: 35px;
+  max-width: 1080px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.advantages__headerContainer {
+  display: flex;
+  justify-content: center;
+  border-bottom: #ececec 3px solid;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.advantages__headerContainer h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.advantages__textContainer {
+  margin: 30px;
+}

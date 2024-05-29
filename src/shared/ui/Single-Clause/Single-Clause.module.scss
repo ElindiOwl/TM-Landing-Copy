@@ -1,0 +1,22 @@
+.singleClause {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: left;
+}
+
+.singleClause img {
+  width: 40px;
+  height: 40px;
+  margin-right: 28px;
+}
+
+.singleClause h3 {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.1;
+}
+
+.singleClause:last-child {
+  margin-bottom: 0;
+}

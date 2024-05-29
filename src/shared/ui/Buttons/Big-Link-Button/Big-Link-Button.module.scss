@@ -1,0 +1,20 @@
+.bigLinkButton {
+  width: 216px;
+  height: 38px;
+  padding: 28px 82px 28px 82px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: #ff2400;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bigLinkButton:hover {
+  background-color: #e62000;
+}
+
+.bigLinkButton p {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color: white;
+}

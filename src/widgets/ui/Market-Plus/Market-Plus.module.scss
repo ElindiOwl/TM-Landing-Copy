@@ -1,0 +1,44 @@
+.marketPlus {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff2400;
+  width: 1080px;
+  border-radius: 50px;
+  padding: 70px 30px 30px 30px;
+  margin: 0 auto 100px auto;
+}
+
+.marketPlus__information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marketPlus__information h2 {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: white;
+}
+
+.marketPlus__information img {
+  width: 220px;
+  height: 168px;
+}
+
+.marketPlus__link {
+  background-color: white;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50px;
+  width: 96px;
+  padding: 13px 30px;
+}
+
+.marketPlus__link:hover {
+  background-color: #E6E6E6;
+  cursor: pointer;
+}
