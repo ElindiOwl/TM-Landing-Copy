@@ -1,6 +1,6 @@
 .slogan {
   width: 100%;
-  height: 896px;
+  height: 950px;
   background-size: cover;
   background-position: 50% 50%;
   line-height: 1.1;
@@ -23,13 +23,7 @@
   top: 5.5%;
 }
 
-.slogan__header h2 {
-  font-weight: 700;
-  font-size: 3rem;
-}
-
 .slogan__header p {
-  font-weight: 400;
   font-size: 1.5rem;
   margin-top: 10px;
 }
@@ -42,7 +36,6 @@
 
 .slogan__quote h2 {
   font-weight: 400;
-  font-size: 3rem;
 }
 
 .slogan__description {
@@ -69,7 +62,6 @@
 }
 
 .slogan__description p {
-  font-weight: 400;
   font-size: 1.875rem;
   transform: rotate(2deg);
   transition: all 1s;
@@ -77,4 +69,55 @@
 
 .slogan__description p:hover {
   transform: rotate(0deg);
+}
+
+@media screen and (max-width: 900px) {
+  .slogan__description p {
+    font-size: 1.25rem;
+  }
+  .slogan__rectangle {
+    width: 570px;
+    height: 35.5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .slogan__header p {
+    font-size: 0.875rem;
+  }
+  .slogan__header h2 {
+    font-size: 2.5rem;
+  }
+  .slogan__header p {
+    font-size: 1.25rem;
+  }
+  .slogan__quote h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slogan__header {
+    left: -20%;
+    top: 5.5%;
+  }
+  .slogan__header p {
+    font-size: 0.875rem;
+  }
+  .slogan__header h2 {
+    font-size: 2.1rem;
+  }
+  .slogan__header p {
+    font-size: 1.25rem;
+  }
+  .slogan__quote h2 {
+    font-size: 2.1rem;
+  }
+  .slogan__description p {
+    font-size: 0.8rem;
+  }
+  .slogan__rectangle {
+    width: 370px;
+    height: 28px;
+  }
 }

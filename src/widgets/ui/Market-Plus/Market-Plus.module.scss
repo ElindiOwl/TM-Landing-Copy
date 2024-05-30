@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   background-color: #ff2400;
-  width: 1080px;
+  max-width: 1080px;
   border-radius: 50px;
   padding: 70px 30px 30px 30px;
-  margin: 0 auto 100px auto;
+  margin-bottom: 100px;
 }
 
 .marketPlus__information {
@@ -18,7 +18,6 @@
   align-items: center;
   font-weight: 400;
   font-size: 2.25rem;
-  line-height: 1.1;
   color: white;
 }
 
@@ -41,4 +40,17 @@
 .marketPlus__link:hover {
   background-color: #E6E6E6;
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .marketPlus__information h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .marketPlus__information img {
+    width: 180px;
+    height: 148px;
+  }
 }

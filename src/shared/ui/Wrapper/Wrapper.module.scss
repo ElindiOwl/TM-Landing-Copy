@@ -11,3 +11,9 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+  .wrapper__containerApp {
+    margin-bottom: 55px;
+  }
+}

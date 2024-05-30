@@ -3,3 +3,24 @@
     padding: 0;
     font-family: Montserrat, sans-serif;
 }
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 1.560rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+}
