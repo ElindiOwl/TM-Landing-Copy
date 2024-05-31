@@ -1,7 +1,7 @@
 export const SubscriptionPage = () => {
 	return (
 		<div>
-			<h2>STAND BY</h2>
+			<h2>In Progress</h2>
 		</div>
 	);
 };
