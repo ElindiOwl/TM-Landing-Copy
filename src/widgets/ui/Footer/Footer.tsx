@@ -1,5 +1,4 @@
-import googlePlay from 'shared/assets/images/googleplay.png';
-import appStore from 'shared/assets/images/appstore.png';
+import { appStore, googlePlay } from 'shared/assets';
 
 import style from './Footer.module.scss';
 

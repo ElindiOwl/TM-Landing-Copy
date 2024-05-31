@@ -1,4 +1,4 @@
-import boxes from 'shared/assets/images/Mockup-2.png';
+import { boxes } from 'shared/assets';
 
 import style from './Slogan.module.scss';
 

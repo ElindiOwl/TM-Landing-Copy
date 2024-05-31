@@ -1,4 +1,4 @@
-import bin from 'shared/assets/images/Bin.png';
+import { bin } from 'shared/assets';
 
 import style from './Market-Plus.module.scss';
 
@@ -15,6 +15,7 @@ export const MarketPlus = () => {
 			</div>
 			<a
 				className={style.marketPlus__link}
+				href="/subscription"
 				rel="noopener noreferrer"
 				target="_blank"
 			>

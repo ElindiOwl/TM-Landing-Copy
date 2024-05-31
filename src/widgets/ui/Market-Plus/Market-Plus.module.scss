@@ -27,6 +27,7 @@
 }
 
 .marketPlus__link {
+  text-decoration: none;
   background-color: white;
   text-align: center;
   font-size: 1rem;
@@ -40,6 +41,10 @@
 .marketPlus__link:hover {
   background-color: #E6E6E6;
   cursor: pointer;
+}
+
+.marketPlus__link:visited {
+  color: black;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,7 +1,4 @@
-import percent from 'shared/assets/icons/percent.png';
-import mapPoint from 'shared/assets/icons/mapPoint.png';
-import audience from 'shared/assets/icons/audience.png';
-import checkMark from 'shared/assets/icons/checkMark.png';
+import { audience, checkMark, mapPoint, percent } from 'shared/assets';
 
 export const clausesDTO = [
 	{
