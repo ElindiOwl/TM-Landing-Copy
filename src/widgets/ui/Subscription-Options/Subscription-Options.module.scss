@@ -1,0 +1,48 @@
+.subscriptionChoice {
+  background-color: white;
+  border-radius: 50px;
+  padding: 30px 30px 60px 30px;
+  margin-bottom: 200px;
+}
+
+.subscriptionChoice__container {
+  margin-bottom: 30px;
+}
+
+.subscriptionChoice__container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.subscriptionChoice__container h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ff2400;
+}
+
+.subscriptionChoice__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .subscriptionChoice__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscriptionChoice {
+    padding-bottom: 30px;
+    border-radius: 25px;
+  }
+  .subscriptionChoice__container h3 {
+    font-size: 1.125rem;
+  }
+  .subscriptionChoice__container h2 {
+    font-size: 1.5rem;
+  }
+}

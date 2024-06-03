@@ -1,13 +1,22 @@
 import { CustomAccordion } from 'shared/ui';
-import { QuestionsMap } from 'entities/Questions';
+import { FC } from 'react';
+import { AccordionMap } from 'shared/lib';
 
 import style from './Questions.module.scss';
 
-export const Questions = () => {
+interface QuestionsProps {
+	mapToUse: AccordionMap;
+	questionsHeader: string;
+}
+
+export const Questions: FC<QuestionsProps> = ({
+	mapToUse,
+	questionsHeader,
+}) => {
 	return (
 		<div className={style.questions}>
 			<div className={style.questions__header}>
-				<h2>Вопросы и ответы</h2>
+				<h2>{questionsHeader}</h2>
 			</div>
 			<div className={style.questions__questionsContainer}>
 				<CustomAccordion
@@ -19,7 +28,7 @@ export const Questions = () => {
 						style.questions__headerAccordion_onClick
 					}
 					isHoverEffect={true}
-					mapToUse={QuestionsMap}
+					mapToUse={mapToUse}
 				/>
 			</div>
 		</div>

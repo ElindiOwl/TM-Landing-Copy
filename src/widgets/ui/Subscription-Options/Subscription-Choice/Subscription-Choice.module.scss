@@ -1,0 +1,98 @@
+.subChoice {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 396px;
+  padding: 30px;
+  border: 2px solid #c0c0c0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.subChoice_highlighted {
+  position: relative;
+  top: -5px;
+  border: 2.5px solid #ff2400;
+  height: 405px !important;
+}
+
+.subChoice_highlighted h2 {
+  color: #ff2400 !important;
+}
+
+.subChoice h3 {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subChoice h2 {
+  font-size: 2.25rem;
+  color: #4d4d4d;
+  margin-bottom: 20px;
+}
+
+.subChoice h6 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.subChoice ul {
+  margin-left: 20px;
+}
+
+.subChoice li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.subChoice a {
+  width: 159px;
+  height: 25px;
+  padding: 10px 71px;
+}
+
+.subChoice a p {
+  font-size: 1rem;
+  margin: 3px 0 0 0;
+}
+
+.subChoice p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  margin-top: 10px;
+  color: #808080;
+  text-align: center;
+}
+
+.subChoice__order {
+  margin-top: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .subChoice:first-child {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subChoice:first-child {
+    margin: 0 0 20px 0;
+  }
+  .subChoice {
+    max-width: 90%;
+  }
+  .subChoice a {
+    padding: 10px 61px;
+  }
+}

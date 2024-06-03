@@ -1,7 +1,11 @@
+import { Wrapper } from 'shared/ui';
+
+import { SubscriptionContent } from './Subscription-Content/Subscription-Content.tsx';
+
 export const SubscriptionPage = () => {
 	return (
-		<div>
-			<h2>In Progress</h2>
-		</div>
+		<Wrapper>
+			<SubscriptionContent />
+		</Wrapper>
 	);
 };

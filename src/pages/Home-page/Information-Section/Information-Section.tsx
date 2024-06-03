@@ -4,6 +4,7 @@ import {
 	MarketPlus,
 	Questions,
 } from 'widgets/ui';
+import { OverallQuestionsMap } from 'entities/Questions';
 
 import style from './Information-Section.module.scss';
 
@@ -13,7 +14,10 @@ export const InformationSection = () => {
 			<MarketPlus />
 			<Advantages />
 			<InfoCardsSection />
-			<Questions />
+			<Questions
+				mapToUse={OverallQuestionsMap}
+				questionsHeader={'Вопросы и ответы'}
+			/>
 		</div>
 	);
 };
