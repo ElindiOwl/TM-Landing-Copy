@@ -1,8 +1,8 @@
 import { AccordionMap } from 'shared/lib';
 
-import style from './questions-map.module.scss';
+import style from './Questions-map.module.scss';
 
-export const QuestionsMap: AccordionMap = {
+export const OverallQuestionsMap: AccordionMap = {
 	question1: {
 		description: (
 			<p className={style.description}>

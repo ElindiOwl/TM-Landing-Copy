@@ -4,3 +4,6 @@ export * from './Advantages/Advantages.tsx';
 export * from './Info-Cards-Section/Info-Cards-Section.tsx';
 export * from './Questions/Questions.tsx';
 export * from './Footer/Footer.tsx';
+export * from './Header/Header.tsx';
+export * from './Billing-Info/Billing-Info.tsx';
+export * from './Subscription-Options/Subscription-Options.tsx';

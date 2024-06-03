@@ -1,0 +1,16 @@
+.header {
+  margin: 25px 0;
+}
+
+.header h2 {
+  color: #ff2400;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    margin: 25px 40px;
+  }
+  .header h2 {
+    font-size: 1.65rem;
+  }
+}
